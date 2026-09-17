@@ -22,3 +22,4 @@ thartheeb:
   notification:
     from: no-reply@thartheeb.test
     reset-page-url: https://vendors.thartheeb.test/reset-password
+    vendor-activation-page-url: https://vendors.thartheeb.test/set-password

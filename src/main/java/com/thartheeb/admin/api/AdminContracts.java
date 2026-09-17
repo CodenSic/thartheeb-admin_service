@@ -37,5 +37,11 @@ public final class AdminContracts {
                                             @NotBlank String token,
                                             @Future Instant expiresAt) {}
 
+    public record VendorApprovalNotification(
+        @Email @NotBlank String identifier,
+        @NotBlank String companyName,
+        @NotBlank String token,
+        @Future Instant expiresAt) {}
+
     public record AcceptedResponse(UUID deliveryId, String status) {}
 }

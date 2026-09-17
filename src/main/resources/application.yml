@@ -45,3 +45,4 @@ thartheeb:
   notification:
     from: ${NOTIFICATION_FROM:no-reply@thartheeb.qa}
     reset-page-url: ${VENDOR_RESET_PAGE_URL:https://vendors.thartheeb.qa/reset-password}
+    vendor-activation-page-url: ${VENDOR_ACTIVATION_PAGE_URL:http://localhost:3000/set-password}

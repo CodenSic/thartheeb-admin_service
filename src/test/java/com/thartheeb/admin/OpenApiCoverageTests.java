@@ -39,6 +39,7 @@ class OpenApiCoverageTests {
                 .contains("/internal/v1/audit-events")
                 .contains("/internal/v1/vendor-document-policies")
                 .contains("/internal/v1/notifications/password-reset")
+                .contains("/internal/v1/notifications/vendor-approved")
                 .contains("#/components/schemas/ApiError")
                 .doesNotContain("/v1/admin/audit-events");
     }
